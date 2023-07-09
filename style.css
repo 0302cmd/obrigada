@@ -1,0 +1,31 @@
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #6425ac;
+  flex-direction: column;
+}
+
+.text{
+  font-size: 45px;
+  color: white;
+  margin-bottom: 30px;
+
+}
+.paragrafo{
+  font-size:20px ;
+  color:white;
+  margin-bottom: 50px;
+}
+.btn{
+  padding: 15px 55px;
+  background: white;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.btn:hover{
+  border-radius: 16px;
+}
